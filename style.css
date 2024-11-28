@@ -15,8 +15,4 @@ body {
 
     background: url(./imagens/mountains-universe-1.png);
     font-size: 1.6rem;
-    animation: gradient 10s ease infinite;
-    background-size: 200% 200%;
-    font-family: "Montserrat", sans-serif;
-
 }
