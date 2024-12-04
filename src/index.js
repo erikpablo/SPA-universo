@@ -14,7 +14,13 @@ function route(event) {
 }
 
 function handle() {
-    const pathname = window.location.pathname
-
-    console.log(pathname)
+    const { pathname } = window.location
+    const route = routes[pathname] 
+    fetch(route)
+    .then(data => data.text())
+    .then(html => {
+        document.querySelector('#app').innerHTML = html
+    })
 }
+
+handle()

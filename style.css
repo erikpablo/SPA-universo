@@ -9,7 +9,6 @@
 }
 
 body {
-    background-color: #02799D;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -43,7 +42,7 @@ nav a {
     place-content: center;
     gap: 2.4rem;
   
-    background-image: url(assets/mountains-universe-1.png);
+    background-image: url(./imagens/mountains-universe-1.png);
     background-position: center;
     background-size: cover;
   }
@@ -59,7 +58,7 @@ nav a {
     line-height: 2.4;
     background-color: transparent;
     border: 2px solid #fff;
-    border-radius: 5px;
+    border-radius: .5rem;
   
     transition: all 0.2s;
   }
